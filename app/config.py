@@ -14,6 +14,9 @@ class Settings(BaseSettings):
     host: str = "127.0.0.1"
     port: int = 5174
 
+    #Database
+    database_url: str
+
     # Logging
     log_level: str = "INFO"
 
